@@ -10,7 +10,7 @@ public class RunTest extends BaseTest {
     public void testLoginComCredenciaisInvalidos(){
         LinkedinLoginServises loginPageService = new LinkedinLoginServises(driver);
 
-        loginPageService.login("adillsons265@hotmail.com", "Adisilva1");
+        loginPageService.login("emailTest@hotmail.com", "passTest");
 
     }
 }
